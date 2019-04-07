@@ -1,7 +1,7 @@
 /*!
  * @file Ambimate.cpp
  *
- * @mainpage Adafruit SGP30 gas sensor driver
+ * @mainpage Ambimate gas sensor driver
  *
  * @section intro_sec Introduction
  *
