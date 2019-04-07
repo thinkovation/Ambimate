@@ -5,23 +5,19 @@
  *
  * @section intro_sec Introduction
  *
- * This is the documentation for Adafruit's SGP30 driver for the
- * Arduino platform.  It is designed specifically to work with the
- * Adafruit SGP30 breakout: http://www.adafruit.com/products/3709
+ * This is the documentation for Gary Barnett's Ambimate driver for the
+ * Arduino platform.  
  *
  * These sensors use I2C to communicate, 2 pins (SCL+SDA) are required
  * to interface with the breakout.
- *
- * Adafruit invests time and resources providing this open source code,
- * please support Adafruit and open-source hardware by purchasing
- * products from Adafruit!
+
  *
  *
  * @section author Author
- * Written by Ladyada for Adafruit Industries.
+ * Written by Gary Barnett
  *
  * @section license License
- * BSD license, all text here must be included in any redistribution.
+ * MIT - See License file
  *
  */
 
