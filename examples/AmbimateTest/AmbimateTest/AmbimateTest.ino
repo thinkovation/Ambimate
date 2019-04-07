@@ -7,8 +7,7 @@ Ambimate amb;
 void setup() {
   // put your setup code here, to run once:
     Serial.begin(9600);
-  Serial.println("SGP30 test");
-
+ 
   if ( !amb.begin()){
     Serial.println("Sensor not found :(");
     while (1);
