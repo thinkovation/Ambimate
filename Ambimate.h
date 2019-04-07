@@ -1,20 +1,15 @@
 /*!
  * @file Ambimate.h
  *
- * This is the documentation for Adafruit's SGP30 driver for the
- * Arduino platform.  It is designed specifically to work with the
- * Adafruit SGP30 breakout: http://www.adafruit.com/products/3709
+ * This is a first go at a library for the TE Ambimate sensor module for
+ * Arduino platform.  See https://www.te.com/usa-en/products/sensors/multi-sensor-modules.html?tab=pgp-story
  *
  * These sensors use I2C to communicate, 2 pins (SCL+SDA) are required
  * to interface with the breakout.
  *
- * Adafruit invests time and resources providing this open source code,
- * please support Adafruit and open-source hardware by purchasing
- * products from Adafruit!
+ * Written by Gary Barnett
  *
- * Written by Ladyada for Adafruit Industries.
- *
- * BSD license, all text here must be included in any redistribution.
+ * MIT License
  *
 */
 
@@ -24,11 +19,6 @@
 // the i2c address
 #define AMBIMATE_I2CADDR_DEFAULT 0x2A     ///< Ambimate has only one I2C address
 
-
-
-/**************************************************************************/
-/*!  Class that stores state and functions for interacting with SGP30 Gas Sensor */
-/**************************************************************************/
 class Ambimate {
  public:
   Ambimate();
