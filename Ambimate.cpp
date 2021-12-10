@@ -87,6 +87,11 @@ boolean Ambimate::Measure(void){
   }
 unsigned int status = buf[0];
   TEMP = (buf[1] * 256.0 + buf[2]) / 10.0;
+ // A very simple hack to deal with negative temperatures which are 
+ // returned by the Ambimate as a signed 16 bit int
+ if(TEMP>1000){ 
+   TEMP=(TEMP-6553.6); 
+  }
  
   HUM = (buf[3] * 256.0 + buf[4]) / 10.0;
   LUM = (buf[5] * 256.0 + buf[6]);
